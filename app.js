@@ -8,4 +8,7 @@ connect()
 app.get('/',(req,res)=>{
     res.send("welcome to node js proj")
 })
+app.get('product',(req,res)=>{
+    res.send("welcome to node js proj")
+})
 export default app;
